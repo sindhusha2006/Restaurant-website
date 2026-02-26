@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+nav {
+    background-color: #8B0000;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero{
+    background: url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0') no-repeat center/cover;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 5px black;
+}
+
+.hero1 {
+    font-size: 50px;
+}
+
+
+section {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 200px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #008b56;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a30000;
+}
